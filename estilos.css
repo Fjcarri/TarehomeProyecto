@@ -1,0 +1,221 @@
+/* Estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+h1 {
+    font-size: 2.5rem;
+    font-family: "Rubik Dirt", system-ui;
+    }
+ 
+.seccion-oscura{
+    color:white;
+    background-color: #257cd3;
+}
+.seccion-clara{
+    color:black;
+    background-color:white;
+}
+ 
+.seccion-titulo{
+    font-size:2rem;
+    padding:15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-texto{
+    font-size:1.2rem;
+}
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+ 
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+ 
+.texto-negro {
+color: black;
+}
+.texto-blanco {
+color: white;
+}
+ 
+ 
+/* Barra de navegacion*/
+.navbar{
+    padding: 2rem;
+    background-color: #257cd3;
+    }
+ 
+    .navbar-collapse{
+        align-items: center;
+        justify-content: space-between;
+    }
+ 
+    .color-boton{
+        background-color: aliceblue;
+        color: aliceblue;
+    }
+ 
+    /* Sesion Hero */
+ 
+.hero{
+    /* background-color: #d4eecc; */
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+ 
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+ 
+/* Experiencia */
+.contacto{
+    padding: 40px 40px 60px 40px;
+ 
+}
+ 
+.contacto i{
+    font-size: 2.5rem;
+    color: #070706;
+    background-color: #257cd3;
+    padding: 8px 19px;
+    border-radius: 25%;
+ 
+}
+ 
+.contacto .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s  ease-in;
+ 
+}
+ 
+.contacto .columna:hover{
+    color: rgb(138, 117, 117);
+    background-color: #A9E2F3;
+}
+ 
+ 
+ 
+.contacto-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+ 
+}
+ 
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+ 
+.badge{
+    margin: 5px;
+ 
+}
+ 
+/* Pie de pagina (footer) */
+ 
+footer {
+ 
+ 
+    background-color: #257cd3;
+    font-size: 15px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+ 
+}
+ 
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    color: white;
+}
+ 
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    }
+ 
+ 
+.iconos-redes-sociales a {
+ width: 50px;
+ height: 50px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ padding: 2px;
+ margin: 10px;
+ border: 2px solid white;
+ border-radius:  50%;
+ transition: all 0.2s ease-in;
+}
+ 
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+ 
+.iconos-redes-sociales  a:hover{
+    background-color: black;
+    border: 2px solid rgb(13, 110, 253);
+}
+ 
+.iconos-redes-sociales  a:hover i{
+   color: white;
+ 
+}
+ 
+.derechos-de-autor{
+    font-size: 15px;
+    color: #0b0b0b;
+    padding: 20px;
+}
+ 
+.aling-content-center > p:nth-child(1) {
+    color: #000000; /* Cambia el color del texto a negro o a otro color con suficiente contraste */
+    background-color: #257cd3; /* Cambia o ajusta el fondo según sea necesario */
+    font-size: 14px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: bold; /* Ajusta el peso de la fuente según sea necesario */
+    padding: 10px; /* Ajusta el espaciado según sea necesario */
+  }
+ 
+  .aling-content-center > p:nth-child(1) span.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
